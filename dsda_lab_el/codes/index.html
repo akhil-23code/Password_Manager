@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <h1>Password Manager</h1>
+
+    <!-- Add Password Section -->
+    <div>
+        <h2>Add Password</h2>
+        <input type="text" id="site" placeholder="Enter Site Name" />
+        <input type="text" id="username" placeholder="Enter Username" />
+        <input type="text" id="password" placeholder="Enter Password" />
+        <button id="addPasswordButton">Add Password</button>
+    </div>
+
+    <div>
+        <h2>Retrieve Password</h2>
+        <input type="text" id="retrieveSite" placeholder="Enter Site Name" />
+        <button id="retrievePasswordButton">Retrieve Password</button>
+        <p id="retrievedPassword"></p>
+    </div>
+
+    <div>
+        <h2>Update Password</h2>
+        <input type="text" id="updateSite" placeholder="Enter Site Name" />
+        <input type="text" id="newPassword" placeholder="Enter New Password" />
+        <button id="updatePasswordButton">Update Password</button>
+    </div>
+
+    <div>
+        <h2>Delete Password</h2>
+        <input type="text" id="deleteSite" placeholder="Enter Site Name" />
+        <button id="deletePasswordButton">Delete Password</button>
+    </div>
+
+    <div>
+        <h2>Show List of Passwords</h2>
+        <button id="showListButton">Show Stored Sites</button>
+        <ul id="passwordList"></ul>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
