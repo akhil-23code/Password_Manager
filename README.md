@@ -1,6 +1,4 @@
 # Password_Manager
-DSDA_LAB_EL Project
-
 
 ## To Execute this:
 ### clone the project 
